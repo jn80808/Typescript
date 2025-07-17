@@ -39,9 +39,12 @@ function addNumber(a:number, b:number){
 
 console.log(addNumber(2,3));
 
-//console.log(addNumber("text",3));
+console.log(addNumber("text",3));
 
 
+//----------------
+//------ 7 -------
+//----------------
 
 
 
