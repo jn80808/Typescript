@@ -47,3 +47,12 @@ let stringToNumber1: number = parseInt("1985");
 
 
 
+/** -- Booleans  --  */
+
+let isStudent: boolean = false;
+const alwaysStudent = true;
+let minimumAge: boolean = age > 6 ? true : false; 
+
+
+
+
