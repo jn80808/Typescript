@@ -1,2 +1,8 @@
 npm run start:dev
 node index.js
+
+
+cd
+cd folder
+tsc filename
+node filename 

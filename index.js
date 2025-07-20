@@ -22,16 +22,11 @@ for (const student of students) {
 //----------------
 //------ 6 -------
 //----------------
-
-
 function addNumber(a, b) {
     return a + b;
 }
 console.log(addNumber(2, 3));
 console.log(addNumber("text", 3));
-
-
-
 //----------------
 //------ 7 -------
 //----------------
