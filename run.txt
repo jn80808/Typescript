@@ -6,3 +6,10 @@ cd
 cd folder
 tsc filename
 node filename 
+
+node 13_Symbol_Type.ts
+
+tsc 13_Symbol_Type.js
+
+node 13_Symbol_Type.js
+
