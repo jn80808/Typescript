@@ -18,7 +18,7 @@ let today : CustomDate = new Date();
 let unique1: CustomSymbol = Symbol();
 
 
-//inference 
+//inference is allowing typescript assigneed data type 
 
 function addNumbers(a: number, b:number){
     return a + b
