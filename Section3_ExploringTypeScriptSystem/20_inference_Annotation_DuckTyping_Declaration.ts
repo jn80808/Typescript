@@ -11,7 +11,7 @@ type CustomDate = Date;
 type CustomSymbol = Symbol;
 
 
-//annotation 
+//annotation : manually declaring the type 
 let firtsName : CustomString = "Mark";
 let age11 : CustomNumber = 32;
 let today : CustomDate = new Date();
