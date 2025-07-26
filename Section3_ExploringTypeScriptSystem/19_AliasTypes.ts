@@ -1,3 +1,4 @@
+//buildin data types
 Date;
 Array;
 Map;
@@ -11,7 +12,7 @@ WeakMap;
 WakeLockSentinel;
 
 
-
+//creating own data types
 type CustomString = string; 
 type CustomNumber = number;
 type CustomDate = Date;
