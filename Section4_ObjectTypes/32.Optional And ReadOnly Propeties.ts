@@ -10,12 +10,19 @@ type AwardsDetails1={
 type Awards2 ={
         [Key: string]: AwardsDetails
 }
+type Author2 ={
+    name:string;
+    age:number;
+    email:string;
+    readonly type: "human" | "ai"
+}
+
 
 type Post6 ={
     title: string;
     content: string;
     date: Date;
-    author: Author;
+    author: Author2;
     awards:Awards;
     category?:Awards;
 }
