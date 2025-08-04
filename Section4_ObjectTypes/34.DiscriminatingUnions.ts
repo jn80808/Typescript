@@ -1,10 +1,17 @@
-type NetworkLoadingState = {};
+type NetworkLoadingState = {
+    state : "Loading";
+};
 
 
-type NetworkFieldLoadState = {};
+type NetworkFieldLoadState = {
+    state : "Field";
+    code: number; 
+};
 
 
-type NetworkSuccessSate = {} ; 
+type NetworkSuccessSate = {
+    state : "Success";
+}; 
 
 
 
