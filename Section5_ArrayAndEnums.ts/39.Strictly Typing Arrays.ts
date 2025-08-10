@@ -20,7 +20,7 @@ let c2: (string | number | boolean)[] = ["a", 1 , true]
 type Caterer1 = {
     name: string;
     address: string;
-    phone: string; // changed to string to handle large numbers
+    phone: string; 
 };
 
 type Seats1 = {
@@ -29,7 +29,7 @@ type Seats1 = {
 
 type Airplane1 = {
     model: string;
-    flightNumber: string; // fixed spelling
+    flightNumber: string; 
     timeOfDeparture: Date;
     timeOfArrival: Date;
     caterer: Caterer1;
