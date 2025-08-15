@@ -26,6 +26,21 @@ person8[0] = "dd"
 type a = Readonly<string[]>;
 
 
+//Array ReadOnly 
+type a1 = Readonly<string[]>;
+type b = ReadonlyArray<(string)>; //alternative to declare readonly 
+
+
+//ArrayUnion ReadOnly 
+type a3 = Readonly<(string| number)[]>;
+type b2= ReadonlyArray<(string | number)>;
+
+
+
+
+
+
+
 
 
 
