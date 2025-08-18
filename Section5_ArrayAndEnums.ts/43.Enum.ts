@@ -3,7 +3,7 @@ const STATUS_LOADING ="loading";
 const STATUS_STOPPED ="stopped";
 
 
-
+//cannot reassigned new value 
 STATUS_LOADING ="stopped"; 
 
 //Declaring ENUMS 
