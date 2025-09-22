@@ -24,3 +24,10 @@ type Reserve = (
     depatingFrom: string,
     destination:string
 )=> Reservation; 
+
+
+
+
+
+
+
