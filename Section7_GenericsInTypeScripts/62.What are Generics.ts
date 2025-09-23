@@ -7,3 +7,16 @@ function returnParams(param){
 function returnParam1 (param: any) {
     return param;
 }
+
+//make it generic by using <> 
+function returnParam2<Type> (param: Type): Type {
+    return param;
+}
+
+// -- call this function 
+//using correct passing value 
+returnParam2<string>("123"); 
+
+//using not correct passing value 
+returnParam2<string>(123); 
+
