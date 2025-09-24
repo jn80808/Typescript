@@ -20,3 +20,18 @@ returnParam2<string>("123");
 //using not correct passing value 
 returnParam2<string>(123); 
 
+
+//arrow function 
+const myParam:<T>(param:T) => T = (param) => param;
+
+const myParam2 = function <U>(param: U): U{
+    return param;
+} 
+
+
+type ObjectType ={
+    myParam:
+}
+
+
+
