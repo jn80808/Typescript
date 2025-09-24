@@ -30,8 +30,10 @@ const myParam2 = function <U>(param: U): U{
 
 
 type ObjectType ={
-    myParam:
-}
+    myParam: <V, X>(param: V, param2: X) => V|X;
+};
 
+
+type MyParam = <K>(param:K) => K;
 
 
