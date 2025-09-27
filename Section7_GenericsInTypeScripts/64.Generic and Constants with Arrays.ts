@@ -34,8 +34,19 @@ const firstElementNumber: FirstElement<number> =(arr) =>{
     return arr[0];
 }
 
+firstElement(["123"])
+
 
 /**--- 64 */
 
+type HasLength = {
+    length: number
+};
 
+function logLength<T extends HasLength>(item: T): void{
+    console.log(item.length);
+}
 
+logLength(numbersArray);
+logLength(stringArray);
+logLength("stringArray");
