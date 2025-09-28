@@ -46,8 +46,14 @@ const user = {
 }
 
 
+printId(user);
+
+const product = {
+    name: "Laptop"
+}
 
 
+printId(product)
 
 
 
