@@ -16,4 +16,17 @@ type KeyValuePair<K,V> = {
     value: V;
 }
 
+//application of the generic type 
+
+let stringNumberPair1: KeyValuePair<string,number> ={
+    key: "age",
+    value: 30
+}
+
+
+let NumberArrayPair1 ={
+    key: 123,
+    value: ["a"]
+}
+
 
