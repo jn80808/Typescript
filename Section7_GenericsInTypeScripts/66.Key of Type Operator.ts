@@ -36,9 +36,28 @@ let stringObject: NumberAndString ={
 console.log(stringObject["0"]);
 
 
+type Persons ={
+    name: string;
+    age: string;
+    address: string; 
+}
+//hardcoded optional 
+type Persons1 ={
+    name?: string;
+    age?: string;
+    address?: string; 
+}
+
+//but this properties is needed in database but sending partial info is optional or partial 
+
+type PartialPerson ={
+    [K in keyof Persons]?: Persons[K] | null;
+}
 
 
-
+let partial: PartialPerson ={
+    name:"Jhon",
+}
 
 
 
