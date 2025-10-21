@@ -1,4 +1,4 @@
-const filter = (array: any[], predicate:() => boolean) => {
+const filter = (array: any[], predicate:(item:any) => boolean) => {
     let result: any[] = [];
     for (let i =0; i < array.length; i++ ){
         if (predicate(array[i])){
